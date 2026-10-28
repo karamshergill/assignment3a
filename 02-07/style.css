@@ -1,9 +1,8 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@900&display=swap");
 
 @keyframes wiggle {
-
-  0%,
-  100% {
+  0%, 100% {
     transform: translateX(0) rotate(0deg);
   }
 
@@ -25,6 +24,7 @@ h2 {
   font-family: "Fira Sans", sans-serif;
   color: #DCF2B0;
   text-shadow: 3px 3px 0px #59C3C3;
+  transform-origin: bottom center;
 
   animation-name: scaleIn;
   animation-duration: 2s;
