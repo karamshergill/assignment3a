@@ -10,5 +10,5 @@ img {
 }
 
 .robot {
-  transform: translateX(100%);
+  transform: translate(100px, 200px);
 }
