@@ -1,14 +1,13 @@
-
 body {
   display: flex;
   justify-content: center;
   margin-top: 3em;
   background-color: #6F7295;
-  perspective: 100px;
+  perspective: 1000px;
 }
 
 .robot {
-  transform: rotateX(45deg);
+  transform: rotateX(45deg) rotateY(20deg);
 }
 
 .wrap {
