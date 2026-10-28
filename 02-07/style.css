@@ -31,6 +31,7 @@ h2 {
   animation-duration: 0.5s;
   animation-iteration-count: infinite;
   animation-fill-mode: backwards;
+  animation-timing-function: cubic-bezier(0.36, 0.07, 0.19, 0.97);
 }
 
 .wrap {
