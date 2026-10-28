@@ -1,6 +1,8 @@
 #heartfill {
   animation: beat 0.8s linear,
     fade 0.25s reverse both;
+  transform-origin: 50% 50%;
+  transform-box: fill-box;
 }
 
 #outline {}
