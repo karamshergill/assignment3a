@@ -3,6 +3,10 @@
   animation-play-state: paused;
 }
 
+.sticker:hover {
+  animation-play-state: running;
+}
+
 @keyframes rotate {
   100% {
     transform: rotate(360deg);
