@@ -8,7 +8,9 @@
   }
 }
 
-.cloud01 {}
+.cloud01 {
+  animation: float 25s linear infinite;
+}
 
 .cloud02 {}
 
