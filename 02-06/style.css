@@ -9,7 +9,8 @@ h1 {
   margin: 0 auto;
   letter-spacing: .15em;
 
-  animation: typing 3s steps(14);
+  animation: typing 3s steps(14),
+    blinking 0.5s steps(1) infinite;
 }
 
 @keyframes blinking {
