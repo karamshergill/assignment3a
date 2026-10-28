@@ -33,6 +33,55 @@ h1 {
       "CASL" 1,
       "CRSV" 1,
       "wght" 300,
+h1 {
+  font-family: 'Recursive', "Times New Roman";
+  font-size: 10rem;
+  animation: VARS 8s infinite linear;
+}
+
+@keyframes VARS {
+  0% {
+    font-variation-settings:
+      "CASL" 1,
+      "CRSV" 1,
+      "wght" 300,
+      "slnt" 0;
+  }
+
+  25% {
+    font-variation-settings:
+      "CASL" 0,
+      "CRSV" 0,
+      "wght" 600,
+      "slnt" -10;
+  }
+
+  75% {
+    font-variation-settings:
+      "CASL" 0,
+      "CRSV" 0,
+      "wght" 300,
+      "slnt" -10;
+  }
+
+  100% {
+    font-variation-settings:
+      "CASL" 1,
+      "CRSV" 1,
+      "wght" 300,
+      "slnt" 0;
+  }
+}
+
+body {
+  background: #433f55;
+  color: white;
+  padding-top: 8rem;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
       "slnt" 0;
   }
 }
