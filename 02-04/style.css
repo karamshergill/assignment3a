@@ -3,7 +3,7 @@
   animation-duration: 3s;
   animation-fill-mode: forwards;
   animation-iteration-count: 3;
-  animation-direction: reverse;
+  animation-direction: alternate;
 }
 
 @keyframes move {
