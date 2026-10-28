@@ -11,6 +11,14 @@ h1 {
       "wght" 300,
       "slnt" 0;
   }
+
+  25% {
+    font-variation-settings:
+      "CASL" 0,
+      "CRSV" 0,
+      "wght" 600,
+      "slnt" -10;
+  }
 }
 
 body {
