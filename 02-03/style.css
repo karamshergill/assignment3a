@@ -11,7 +11,8 @@
 .robot {
   animation-name: move;
   animation-duration: 3s;
-  animation-fill-mode: none;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
 }
 
 /*------ other styles ---*/
