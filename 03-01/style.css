@@ -12,7 +12,9 @@
   animation: float 25s linear infinite;
 }
 
-.cloud02 {}
+.cloud02 {
+  animation: float 30s linear 5s infinite;
+}
 
 
 /* Other styles  */
