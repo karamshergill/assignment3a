@@ -25,5 +25,5 @@ button {
   text-align: center;
   text-transform: uppercase;
   transition: background 0.3s ease-in,
-    transform 0.2s ease-in-out;
+    transform 0.2s ease-in-out 0.1s;
 }
