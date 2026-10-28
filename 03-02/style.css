@@ -1,5 +1,6 @@
 .sticker {
   animation: rotate 10s linear infinite;
+  animation-play-state: paused;
 }
 
 @keyframes rotate {
