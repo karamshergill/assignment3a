@@ -29,24 +29,30 @@ p:nth-of-type(1) {
   --scale: 1.75;
   --dist: 80%;
   --deg: 5deg;
+  --dur: 1.9s;
+  --ease: cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
 p:nth-of-type(2) {
   color: #59C3C3;
   --scale: 1.5;
   --dist: 30%;
+  --delay: 0.5s;
+  --ease: cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 p:nth-of-type(3) {
   color: #fbacbe;
   --deg: -5deg;
   --dist: 100%;
+  --ease: cubic-bezier(0.42, 0, 1, 1);
 }
 
 p:nth-of-type(4) {
   color: #DCF2B0;
   --scale: 1.9;
   --deg: 15deg;
+  --ease: cubic-bezier(0, 0, 0.58, 1);
 }
 
 body {
