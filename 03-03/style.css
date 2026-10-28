@@ -6,6 +6,12 @@
   }
 }
 
+@keyframes flipDown {
+  100% {
+    transform: rotateX(-180deg);
+  }
+}
+
 h2 {
   margin: 0;
   font-size: 7em;
@@ -14,7 +20,8 @@ h2 {
 }
 
 h2 span {
-  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards;
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.27, 1.55) forwards,
+    flipDown 1s cubic-bezier(0.68, -0.55, 0.27, 1.55) 2.75s forwards;
 }
 
 span:nth-child(2) {
